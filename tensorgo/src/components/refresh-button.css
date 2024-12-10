@@ -1,0 +1,21 @@
+/* refresh-button.css */
+.refresh-button {
+    align-self: flex-end; /* Align to the right */
+    background: none; /* Remove background */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor */
+    padding: 10px; /* Add padding */
+    margin-left: auto; /* Push the button to the right in a flex container */
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth transition */
+  }
+  
+  .refresh-button:hover {
+    transform: scale(1.1); /* Slight enlargement on hover */
+    color: #007bff; /* Change color to blue on hover */
+  }
+  
+  .refresh-button .fa {
+    font-size: 24px; /* Set icon size */
+    color: #333; /* Default icon color */
+  }
+  

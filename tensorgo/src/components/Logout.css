@@ -1,0 +1,22 @@
+.logout-button {
+    position: fixed; /* Fixed positioning to keep it in the same spot even when scrolling */
+    top: 20px; /* Distance from the top of the page */
+    right: 20px; /* Distance from the right side of the page */
+    padding: 10px 20px; /* Some padding to make the button bigger */
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 16px; /* Slightly larger font */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3; /* Darker blue when hovered */
+  }
+  
+  .logout-button:focus {
+    outline: none; /* Remove focus outline */
+  }
+  
